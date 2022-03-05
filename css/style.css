@@ -6,16 +6,73 @@ body {
 main {
   margin: auto;
   width: 70%;
-  padding: 0;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 header {
   background-color: #1f2937;
   height: 30rem;
+  padding: 1rem 10rem;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+}
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.header-info {
+  display: flex;
+  height: 20rem;
+}
+
+.header-info div {
+  flex: 1;
+}
+
+.header-info h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-info input {
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #3882f6;
+  font-weight: 500;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.image-banner img {
+  height: 17rem;
+  width: 100%;
 }
