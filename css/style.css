@@ -1,6 +1,7 @@
 body {
   background-color: #000;
   margin: 0;
+  font-family: sans-serif;
 }
 
 main {
@@ -151,4 +152,14 @@ header {
   font-weight: 500;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.page-footer {
+  background-color: #1f2937;
+  padding: 2rem 5rem;
+  margin: auto;
+}
+
+.page-footer p {
+  text-align: center;
 }
