@@ -123,3 +123,29 @@ header {
   color: #000;
   font-style: normal;
 }
+
+.page-signup {
+  background-color: #fff;
+  padding: 5rem 10rem;
+  margin: 0;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #fff;
+  display: flex;
+  border-radius: 15px;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+}
+
+.button {
+  margin: auto;
+}
+
+.button input {
+  border-radius: 10px;
+  padding: 10px 30px;
+  border-color: #fff;
+  background-color: #3882f6;
+}
