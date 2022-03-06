@@ -148,4 +148,7 @@ header {
   padding: 10px 30px;
   border-color: #fff;
   background-color: #3882f6;
+  font-weight: 500;
+  color: #e5e7eb;
+  font-size: 18px;
 }
