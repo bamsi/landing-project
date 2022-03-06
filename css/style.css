@@ -80,7 +80,6 @@ header {
 
 .content-wrapper {
   background-color: #fff;
-  height: 25rem;
   padding: 1rem 10rem;
   margin: 0;
   color: #000;
@@ -105,4 +104,22 @@ header {
 .tiles img {
   width: 200px;
   height: 200px;
+}
+
+.page-quote {
+  background-color: #e5e7eb;
+  padding: 1rem 18rem;
+  margin: 0;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.page-quote P {
+  color: #1f2937;
+  text-align: justify;
+}
+.page-quote h3 {
+  text-align: right;
+  color: #000;
+  font-style: normal;
 }
